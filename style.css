@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background-color: #F4F5F7;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+
+}
+
+header {
+	width: 100%;
+	height: 13.55vh;
+	background: #FFFFFF;
+	z-index: -1;
+	position: fixed;
+	top: 0;
+}
+
+.sidebar {
+	background: #fff;
+	height: 100%;
+	width: 8vw;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	box-shadow: 4px 8px 10px #D9DADC;
+}
+
+.sidebar .nav-item {
+	color: #99A0AA;
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	transition: 0.2s;
+
+}
+.sidebar .nav-item:hover{
+	background: #D1E1EE;
+}
+
+.sidebar .nav-item i {
+	font-size: 35px;
+	
+
+}
+
+.sidebar .home-btn {
+	color: #000;
+	border-bottom: 4px solid #F4F5F7;
+}
+
+.sidebar .home-btn i {
+	font-size: 40px;
+}
+
+.sidebar .active {
+	background: #D1E1EE;
+	border-left: 5px solid #669ce9;
+	color: #122433;
+	padding: 10px;
+
+}
+
+.nav-item p{
+	font-size: 14px;
+}
+
+.sidebar .active p {
+	font-weight: bolder;
+
+}
+
+
+.container {
+	margin: auto;
+	margin-top: 9%;
+	width: 80%;
+	color: #7B91A9;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+.container a{
+	text-decoration: none;
+	color: rgb(129 175 215);
+}
+.container a:hover{
+	background: #D1E1EE;
+
+}
+
+.inner-container {
+	width: 50%;
+	/*border: 1px solid red;*/
+	margin: auto;
+	padding: 55px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+
+.inner-container input[type="text"] {
+	background: #fff;
+	height: 25px;
+	border-radius: 5px;
+	width: 100%;
+	padding: 5px;
+	outline: none;
+	border: none;
+
+}
+
+.inner-container input[type="text"]::placeholder
+{
+	color: #616161;
+	font-weight: bolder;
+}
+.inner-container p{
+	padding-top : 40px;
+	
+}
+
+
+.inner-container .upload {
+	width: 150px;
+	height: 150px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: #000;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+
+}
+.inner-container .upload:active{
+	background: #D1E1EE;
+	
+}
